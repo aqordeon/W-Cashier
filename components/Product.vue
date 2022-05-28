@@ -40,9 +40,6 @@
                     </v-list>
                 </v-menu>
             </v-col>
-        </v-row>
-        
-        <v-row>
             <v-col v-for="(product, index) in filteredProducts"
                 :key="index"
                 cols="2">
